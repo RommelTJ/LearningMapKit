@@ -56,4 +56,10 @@ class DestinationTableViewCell: UITableViewCell {
         }
     }
 
+    @IBAction func viewRouteTapped(_ sender: UIButton) {
+        guard let mapDestination = destination else { return }
+        
+        let launchOptions = [MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeTransit]
+        mapDestination.mapItem.openInMaps(launchOptions: launchOptions)
+    }
 }
