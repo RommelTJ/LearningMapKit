@@ -94,7 +94,7 @@ class ViewController: UIViewController {
         userAnnotation?.coordinate = userCoordinate!
         mapView.addAnnotation(userAnnotation!)
         
-        for cell in tableView.visibleCells as! [DestinationTableViewCell] {
+        for cell in self.tableView.visibleCells as! [DestinationTableViewCell] {
             cell.userCoordinate = userCoordinate
         }
         
@@ -105,6 +105,7 @@ class ViewController: UIViewController {
 // MARK: - UITableView Datasource
 
 extension ViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return destinations.count
     }
