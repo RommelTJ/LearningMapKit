@@ -127,6 +127,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="qFY-8c-0gK" id="TKf-ya-1kg"/>
+                        <outlet property="tableView" destination="LRi-6R-5co" id="VBb-r4-u35"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
