@@ -36,7 +36,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="123"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cFr-Xd-lF1" id="0Qn-bH-vPV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="122.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnC-IA-8Gi" userLabel="Name Label">
@@ -78,9 +78,6 @@
                                                             <state key="normal" title="View Route">
                                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </state>
-                                                            <connections>
-                                                                <action selector="viewRouteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Dd-VX-jos"/>
-                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <constraints>
@@ -105,6 +102,13 @@
                                                         <constraint firstItem="Mfa-Vx-6xL" firstAttribute="trailing" secondItem="0Qn-bH-vPV" secondAttribute="trailingMargin" id="z01-NR-Cqy"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="arrivalTimeLabel" destination="v6H-Ob-dST" id="EoW-jf-yUy"/>
+                                                    <outlet property="departureTimeLabel" destination="J6h-4E-hnx" id="TCB-gm-abw"/>
+                                                    <outlet property="distanceLabel" destination="wM1-6O-mGf" id="wC3-3C-3p8"/>
+                                                    <outlet property="etaLabel" destination="Dw8-Hb-wtd" id="a1Q-37-4ao"/>
+                                                    <outlet property="nameLabel" destination="lnC-IA-8Gi" id="UW9-mq-ro6"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
@@ -123,13 +127,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="arrivalTimeLabel" destination="v6H-Ob-dST" id="hSq-La-5m2"/>
-                        <outlet property="departureTimeLabel" destination="J6h-4E-hnx" id="NHz-kZ-wgF"/>
-                        <outlet property="distanceLabel" destination="wM1-6O-mGf" id="kDx-gI-NZk"/>
-                        <outlet property="etaLabel" destination="Dw8-Hb-wtd" id="ywx-aW-Cmq"/>
-                        <outlet property="nameLabel" destination="lnC-IA-8Gi" id="zkR-ws-bbg"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
