@@ -12,6 +12,7 @@
 		B0AD12491F97A505001F6F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AD12471F97A505001F6F51 /* Main.storyboard */; };
 		B0AD124B1F97A505001F6F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AD124A1F97A505001F6F51 /* Assets.xcassets */; };
 		B0AD124E1F97A505001F6F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AD124C1F97A505001F6F51 /* LaunchScreen.storyboard */; };
+		B0AD12561F97AAE7001F6F51 /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AD12551F97AAE7001F6F51 /* DestinationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B0AD124A1F97A505001F6F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0AD124D1F97A505001F6F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0AD124F1F97A505001F6F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AD12551F97AAE7001F6F51 /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B0AD12431F97A505001F6F51 /* AppDelegate.swift */,
 				B0AD12451F97A505001F6F51 /* ViewController.swift */,
+				B0AD12551F97AAE7001F6F51 /* DestinationTableViewCell.swift */,
 				B0AD12471F97A505001F6F51 /* Main.storyboard */,
 				B0AD124A1F97A505001F6F51 /* Assets.xcassets */,
 				B0AD124C1F97A505001F6F51 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AD12561F97AAE7001F6F51 /* DestinationTableViewCell.swift in Sources */,
 				B0AD12461F97A505001F6F51 /* ViewController.swift in Sources */,
 				B0AD12441F97A505001F6F51 /* AppDelegate.swift in Sources */,
 			);
